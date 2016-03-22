@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>简易计算器</title>
+<meta charset="UTF-8">
+</head>
+<style type="text/css">
+#result {
+	width: 400px;
+	height: 100px;
+	background-color: black;
+	color: white;
+	font-size: 35px;
+	text-align: right;
+}
+table {
+	width: 400px;
+	height: 300px;
+	margin: 0 20px;
+}
+.row {
+	width: 100%;
+	height: 60px;
+	font-size: 35px;
+}
+.orange {
+	color: white;
+	background: orange;
+}
+</style>
+<body>
+<div>
+<div style="width:400px;height:100px;margin:0px 20px">
+<input type="text"id="result">
+</div>
+<div>
+<table cellpadding="0"cellspacing="0">
+<tr>
+<td><input type="button"class="row"id="reset"value="C"></td>
+<td><input type="button"class="row"id="reverse"value="-"></td>
+<td><input type="button"class="row"id="persent"value="%"></td>
+<td><input type="button"class="row orange"id="division"value="÷"></td>			
+</tr>
+<tr>
+<td><input type="button"class="row"id="7"value="7"></td>
+<td><input type="button"class="row"id="8"value="8"></td>
+<td><input type="button"class="row"id="9"value="9"></td>
+<td><input type="button"class="row orange"id="multiply"value="×"></td>
+</tr>
+<tr>
+<td><input type="button"class="row"id="4"value="4"></td>
+<td><input type="button"class="row"id="5"value="5"></td>
+<td><input type="button"class="row"id="6"value="6"></td>
+<td><input type="button"class="row orange"id="reduce"value="－"></td>
+</tr>
+<tr>
+<td><input type="button"class="row"id="1"value="1"></td>
+<td><input type="button"class="row"id="2"value="2"></td>
+<td><input type="button"class="row"id="3"value="3"></td>
+<td><input type="button"class="row orange"id="sum"value="+"></td>
+</tr>
+<tr>
+<td  colspan="2"><input type="button"class="row"id="0"value="0"></td>
+<td><input type="button"class="row"id="dot"value="."></td>
+<td><input type="button"class="row orange"id="equal"value="="></td>
+</tr>
+
+</table>
+</div>
+</div>
+<script type="text/javascript" src="js/calculator.js"></script>
+</body>
+</html>
